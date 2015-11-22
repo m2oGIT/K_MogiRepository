@@ -14,7 +14,7 @@ public class Test01 {
    * Test01 <br />
    * "Hello World!"の文字列をコンソールに表示する。 <br />
    * 
-   * @param args
+   * @param args コマンドライン引数
    */
   public static void main( String[] args ) {
     // コンソールに出力する。

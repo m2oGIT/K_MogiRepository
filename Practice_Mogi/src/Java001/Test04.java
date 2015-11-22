@@ -14,7 +14,7 @@ public class Test04 {
    * Test04 <br />
    * 引数で与えられた値をコンソールに出力する。 <br />
    * 
-   * @param args
+   * @param args コマンドライン引数
    */
   public static void main( String[] args ) {
     //argsで与えられた引数の1番目をコンソールに出力する。

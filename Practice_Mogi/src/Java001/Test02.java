@@ -14,7 +14,7 @@ public class Test02 {
    * Test02 <br />
    * コンソールに2行の文字列を表示する。 <br />
    * 
-   * @param args
+   * @param args コマンドライン引数
    */
   public static void main( String[] args ) {
     // コンソールに出力する。（2行分）
