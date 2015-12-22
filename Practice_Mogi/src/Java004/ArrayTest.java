@@ -6,6 +6,7 @@ package Java004;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.math.BigDecimal;
 
 /**
  * @author EIS茂木 <br />
@@ -36,6 +37,7 @@ public class ArrayTest {
       String inputLine = null; // 標準入力から入力された行
       int inputNum = 0; // 標準入力を整数値化した値
       int maxNum = 0; // 入力された整数のうちの最大値
+      int sumNum = 0; // 入力された整数の合計値
 
       // 標準入力から文字列を5件読み込む
       for ( int i = 1; i <= 5; i++ ) {
@@ -55,10 +57,19 @@ public class ArrayTest {
           // 保管された最大値より大きい場合は入れ替え
           maxNum = inputNum;
         }
+
+        // 合計値の計算
+        sumNum = sumNum + inputNum;
+
       }
 
       // 最大値をコンソールへ出力
       System.out.println( "最大値：" + maxNum );
+      System.out.println( "合計値；" + sumNum );
+
+      // 平均値の計算、コンソールへの出力
+      BigDecimal aveBD = new BigDecimal( sumNum ); // 合計値をBigDecimal型として生成
+      System.out.println( "平均値：" + aveBD.divide( new BigDecimal( "5.0" ) ) ); // 平均値の計算
 
     } catch ( Exception e ) {
       // 例外を検知した場合
