@@ -9,6 +9,7 @@ package Java007;
  *         Member <br />
  *         社員No、姓、名を管理するクラス。 <br />
  *         更新履歴 2016/01/11 EIS茂木：新規作成 <br />
+ *         更新履歴 2016/01/16 EIS茂木：setter/getterメソッド追加 <br />
  */
 public class Member {
   // 社員No
@@ -17,6 +18,48 @@ public class Member {
   private String firstName;
   // 名
   private String secondName;
+
+  /**
+   * @return id
+   */
+  public String getId() {
+    return id;
+  }
+
+  /**
+   * @param id セットする id
+   */
+  public void setId( String id ) {
+    this.id = id;
+  }
+
+  /**
+   * @return firstName
+   */
+  public String getFirstName() {
+    return firstName;
+  }
+
+  /**
+   * @param firstName セットする firstName
+   */
+  public void setFirstName( String firstName ) {
+    this.firstName = firstName;
+  }
+
+  /**
+   * @return secondName
+   */
+  public String getSecondName() {
+    return secondName;
+  }
+
+  /**
+   * @param secondName セットする secondName
+   */
+  public void setSecondName( String secondName ) {
+    this.secondName = secondName;
+  }
 
   /**
    * Member <br />
