@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 
 /**
  * @author EIS茂木 <br />
- *         ArrayTest <br />
+ *         ArrayTest         <br />
  *         標準入力から整数を5件読み込み、最大のものを表示する。 <br />
  *         更新履歴 2015/12/22 EIS茂木：新規作成 <br />
  */
